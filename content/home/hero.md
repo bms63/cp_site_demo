@@ -2,11 +2,11 @@
 widget: hero
 headless: true
 weight: 10
-title: Hugo Academic Starter
-hero_media: hero-academic.png
+title: R Implementation
+hero_media: book_and_blog.JPG
 cta:
-  label: '**Get Started**'
-  url: https://wowchemy.com/templates/
+  label: '**Getting Started with blogdown**'
+  url: https://bookdown.org/yihui/blogdown/
 cta_alt:
   label: Ask a question
   url: https://discord.gg/z8wNYzb
@@ -22,6 +22,6 @@ advanced:
   css_class: fullscreen
 ---
 
-**The FREE, Hugo-based open source website builder and template trusted by 500,000+ sites.**
+**Using the R Package bookdown, we can build simple but elegant websites to document and showcase our processes and products**
 
 **Build anything with widgets** - from landing pages, knowledge bases, and courses to academic resumés, conferences, and tech blogs.

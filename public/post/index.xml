@@ -13,12 +13,12 @@
     </image>
     
     <item>
-      <title>Hello Pharmasug</title>
-      <link>/post/hello-pharmasug/</link>
+      <title>Hello 2021 Pharmasug</title>
+      <link>/post/hello-2021-pharmasug/</link>
       <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>/post/hello-pharmasug/</guid>
+      <guid>/post/hello-2021-pharmasug/</guid>
       <description>
-&lt;script src=&#34;/post/hello-pharmasug/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/post/hello-2021-pharmasug/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 </description>
@@ -109,7 +109,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-391627548&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-718945623&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -119,7 +119,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-391627548&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-718945623&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
