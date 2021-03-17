@@ -10,10 +10,10 @@ main:
   - name: Posts
     url: '#posts'
     weight: 20
-  - name: R Resources
-    url: '#featured'
+  - name: Internal R Resources
+    url: internal/
     weight: 30
-  - name: Blogdown and Bookdown
+  - name: External R Resources
     url: courses/
     weight: 40
 

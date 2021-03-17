@@ -1,5 +1,5 @@
 ---
-title: Courses
+title: External R Resources
 type: page
 
 header:
@@ -7,4 +7,4 @@ header:
   image: ""
 ---
 
-I teach the following courses:
+The R Implementation within Clinical Programming recommends the following:
