@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Courses for Clinical Reporting in R | Pharmasug 2021 CP Demo Site</title><link>pharmasug2021cpdemo.netlify.app/internal/example/</link><atom:link href="pharmasug2021cpdemo.netlify.app/internal/example/index.xml" rel="self" type="application/rss+xml"/><description>Courses for Clinical Reporting in R</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><image><url>/pharmasug2021cpdemo.netlify.app/internal/example/featured.jpg</url><title>Courses for Clinical Reporting in R</title><link>pharmasug2021cpdemo.netlify.app/internal/example/</link></image><item><title>R basics</title><link>pharmasug2021cpdemo.netlify.app/internal/example/r_basics/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>pharmasug2021cpdemo.netlify.app/internal/example/r_basics/</guid><description>&lt;p>Build a foundation in R.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Courses for Clinical Reporting in R | Pharmasug 2021 CP Demo Site</title><link>https://pharmasug2021cpdemo.netlify.app/internal/example/</link><atom:link href="https://pharmasug2021cpdemo.netlify.app/internal/example/index.xml" rel="self" type="application/rss+xml"/><description>Courses for Clinical Reporting in R</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><image><url>https://pharmasug2021cpdemo.netlify.app/internal/example/featured.jpg</url><title>Courses for Clinical Reporting in R</title><link>https://pharmasug2021cpdemo.netlify.app/internal/example/</link></image><item><title>R basics</title><link>https://pharmasug2021cpdemo.netlify.app/internal/example/r_basics/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://pharmasug2021cpdemo.netlify.app/internal/example/r_basics/</guid><description>&lt;p>Build a foundation in R.&lt;/p>
 &lt;p>
 &lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
 &lt;h2 id="learn">Learn&lt;/h2>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/5YmcEYTSN7k" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div></description></item><item><title>Data Viz using ggplot2</title><link>pharmasug2021cpdemo.netlify.app/internal/example/ggplot/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>pharmasug2021cpdemo.netlify.app/internal/example/ggplot/</guid><description>&lt;p>Build a foundation in ggplot2.&lt;/p>
+&lt;/div></description></item><item><title>Data Viz using ggplot2</title><link>https://pharmasug2021cpdemo.netlify.app/internal/example/ggplot/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://pharmasug2021cpdemo.netlify.app/internal/example/ggplot/</guid><description>&lt;p>Build a foundation in ggplot2.&lt;/p>
 &lt;p>
 &lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
 &lt;h2 id="learn">Learn&lt;/h2>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/N5gYo43oLE8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div></description></item><item><title>Simulations in R</title><link>pharmasug2021cpdemo.netlify.app/internal/example/sims/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>pharmasug2021cpdemo.netlify.app/internal/example/sims/</guid><description>&lt;p>Learn how to visualize data with Plotly.&lt;/p>
+&lt;/div></description></item><item><title>Simulations in R</title><link>https://pharmasug2021cpdemo.netlify.app/internal/example/sims/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://pharmasug2021cpdemo.netlify.app/internal/example/sims/</guid><description>&lt;p>Learn how to visualize data with Plotly.&lt;/p>
 &lt;p>
 &lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
 &lt;h2 id="learn">Learn&lt;/h2>
@@ -30,7 +30,7 @@ fig = px.bar(data_canada, x='year', y='pop')
 fig.show()
 &lt;/code>&lt;/pre>
 &lt;/p>
-&lt;/details></description></item><item><title>R Programming Guidance for Clinical Reporting</title><link>pharmasug2021cpdemo.netlify.app/internal/example/guide/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>pharmasug2021cpdemo.netlify.app/internal/example/guide/</guid><description>&lt;p>Deep dive into Internal Guidance on using R for Clinical Reporting.&lt;/p>
+&lt;/details></description></item><item><title>R Programming Guidance for Clinical Reporting</title><link>https://pharmasug2021cpdemo.netlify.app/internal/example/guide/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://pharmasug2021cpdemo.netlify.app/internal/example/guide/</guid><description>&lt;p>Deep dive into Internal Guidance on using R for Clinical Reporting.&lt;/p>
 &lt;p>
 &lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
 &lt;h2 id="learn">Learn&lt;/h2>
@@ -57,7 +57,7 @@ fig.show()
 &lt;details class="spoiler " id="spoiler-3">
 &lt;summary>Is Python case-sensitive?&lt;/summary>
 &lt;p>Yes&lt;/p>
-&lt;/details></description></item><item><title>Advanced Shiny</title><link>pharmasug2021cpdemo.netlify.app/internal/example/shiny/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>pharmasug2021cpdemo.netlify.app/internal/example/shiny/</guid><description>&lt;p>Create and deploy Shiny Apps.&lt;/p>
+&lt;/details></description></item><item><title>Advanced Shiny</title><link>https://pharmasug2021cpdemo.netlify.app/internal/example/shiny/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://pharmasug2021cpdemo.netlify.app/internal/example/shiny/</guid><description>&lt;p>Create and deploy Shiny Apps.&lt;/p>
 &lt;p>
 &lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
 &lt;h2 id="learn">Learn&lt;/h2>
@@ -76,7 +76,7 @@ The variance of the distribution is $\sigma^{2}$.
 &lt;details class="spoiler " id="spoiler-2">
 &lt;summary>What is the parameter $\mu$?&lt;/summary>
 &lt;p>The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p>
-&lt;/details></description></item><item><title>Advanced Package Development</title><link>pharmasug2021cpdemo.netlify.app/internal/example/package/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>pharmasug2021cpdemo.netlify.app/internal/example/package/</guid><description>&lt;p>Learn how to build R Packages.&lt;/p>
+&lt;/details></description></item><item><title>Advanced Package Development</title><link>https://pharmasug2021cpdemo.netlify.app/internal/example/package/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://pharmasug2021cpdemo.netlify.app/internal/example/package/</guid><description>&lt;p>Learn how to build R Packages.&lt;/p>
 &lt;p>
 &lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
 &lt;h2 id="learn">Learn&lt;/h2>
