@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Pharmsug 2021 CP Demo Site</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <title>Posts | Pharmasug 2021 CP Demo Site</title>
+    <link>pharmasug2021cpdemo.netlify.app/post/</link>
+      <atom:link href="pharmasug2021cpdemo.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>/pharmasug2021cpdemo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
-      <link>/post/</link>
+      <link>pharmasug2021cpdemo.netlify.app/post/</link>
     </image>
     
     <item>
       <title>Exploring diffdf</title>
-      <link>/post/exploring-diffdf/</link>
+      <link>pharmasug2021cpdemo.netlify.app/post/exploring-diffdf/</link>
       <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/post/exploring-diffdf/</guid>
+      <guid>pharmasug2021cpdemo.netlify.app/post/exploring-diffdf/</guid>
       <description>
-&lt;script src=&#34;/post/exploring-diffdf/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;pharmasug2021cpdemo.netlify.app/post/exploring-diffdf/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 </description>
@@ -26,11 +26,11 @@
     
     <item>
       <title>PhramaRTF</title>
-      <link>/post/phramartf/</link>
+      <link>pharmasug2021cpdemo.netlify.app/post/phramartf/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>/post/phramartf/</guid>
+      <guid>pharmasug2021cpdemo.netlify.app/post/phramartf/</guid>
       <description>
-&lt;script src=&#34;/post/phramartf/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;pharmasug2021cpdemo.netlify.app/post/phramartf/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Welcome 👋 We know that first impressions are important, so we’ve populated your new site with some initial content to help you get familiar with everything in no time. Welcome 👋 We know that first impressions are important, so we’ve populated your new site with some initial content to help you get familiar with everything in no time. Welcome 👋 We know that first impressions are important, so we’ve populated your new site with some initial content to help you get familiar with everything in no time.&lt;/p&gt;
@@ -90,11 +90,11 @@ ht[1:10,]&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Hello 2021 Pharmasug</title>
-      <link>/post/hello-2021-pharmasug/</link>
+      <link>pharmasug2021cpdemo.netlify.app/post/hello-2021-pharmasug/</link>
       <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>/post/hello-2021-pharmasug/</guid>
+      <guid>pharmasug2021cpdemo.netlify.app/post/hello-2021-pharmasug/</guid>
       <description>
-&lt;script src=&#34;/post/hello-2021-pharmasug/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;pharmasug2021cpdemo.netlify.app/post/hello-2021-pharmasug/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Welcome 👋 We know that first impressions are important, so we’ve populated your new site with some initial content to help you get familiar with everything in no time. Welcome 👋 We know that first impressions are important, so we’ve populated your new site with some initial content to help you get familiar with everything in no time. Welcome 👋 We know that first impressions are important, so we’ve populated your new site with some initial content to help you get familiar with everything in no time.&lt;/p&gt;
@@ -106,9 +106,9 @@ ht[1:10,]&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
+      <link>pharmasug2021cpdemo.netlify.app/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
+      <guid>pharmasug2021cpdemo.netlify.app/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
@@ -163,9 +163,9 @@ ht[1:10,]&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Writing technical content in Academic</title>
-      <link>/post/writing-technical-content/</link>
+      <link>pharmasug2021cpdemo.netlify.app/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/post/writing-technical-content/</guid>
+      <guid>pharmasug2021cpdemo.netlify.app/post/writing-technical-content/</guid>
       <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
@@ -189,7 +189,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-963285741&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-169283745&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -199,7 +199,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-963285741&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-169283745&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -427,9 +427,9 @@ You found me!
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
+      <link>pharmasug2021cpdemo.netlify.app/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
+      <guid>pharmasug2021cpdemo.netlify.app/post/jupyter/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
 Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
 &lt;/code&gt;&lt;/pre&gt;

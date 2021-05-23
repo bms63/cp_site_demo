@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Courses for Clinical Reporting in R | Pharmsug 2021 CP Demo Site</title>
-    <link>/internal/example/</link>
-      <atom:link href="/internal/example/index.xml" rel="self" type="application/rss+xml" />
+    <title>Courses for Clinical Reporting in R | Pharmasug 2021 CP Demo Site</title>
+    <link>pharmasug2021cpdemo.netlify.app/internal/example/</link>
+      <atom:link href="pharmasug2021cpdemo.netlify.app/internal/example/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses for Clinical Reporting in R</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/internal/example/featured.jpg</url>
+      <url>/pharmasug2021cpdemo.netlify.app/internal/example/featured.jpg</url>
       <title>Courses for Clinical Reporting in R</title>
-      <link>/internal/example/</link>
+      <link>pharmasug2021cpdemo.netlify.app/internal/example/</link>
     </image>
     
     <item>
       <title>R basics</title>
-      <link>/internal/example/r_basics/</link>
+      <link>pharmasug2021cpdemo.netlify.app/internal/example/r_basics/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/internal/example/r_basics/</guid>
+      <guid>pharmasug2021cpdemo.netlify.app/internal/example/r_basics/</guid>
       <description>&lt;p&gt;Build a foundation in R.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
@@ -29,9 +29,9 @@
     
     <item>
       <title>Data Viz using ggplot2</title>
-      <link>/internal/example/ggplot/</link>
+      <link>pharmasug2021cpdemo.netlify.app/internal/example/ggplot/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/internal/example/ggplot/</guid>
+      <guid>pharmasug2021cpdemo.netlify.app/internal/example/ggplot/</guid>
       <description>&lt;p&gt;Build a foundation in ggplot2.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
@@ -44,9 +44,9 @@
     
     <item>
       <title>Simulations in R</title>
-      <link>/internal/example/sims/</link>
+      <link>pharmasug2021cpdemo.netlify.app/internal/example/sims/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/internal/example/sims/</guid>
+      <guid>pharmasug2021cpdemo.netlify.app/internal/example/sims/</guid>
       <description>&lt;p&gt;Learn how to visualize data with Plotly.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
@@ -74,9 +74,9 @@ fig.show()
     
     <item>
       <title>R Programming Guidance for Clinical Reporting</title>
-      <link>/internal/example/guide/</link>
+      <link>pharmasug2021cpdemo.netlify.app/internal/example/guide/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/internal/example/guide/</guid>
+      <guid>pharmasug2021cpdemo.netlify.app/internal/example/guide/</guid>
       <description>&lt;p&gt;Deep dive into Internal Guidance on using R for Clinical Reporting.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
@@ -111,9 +111,9 @@ fig.show()
     
     <item>
       <title>Advanced Shiny</title>
-      <link>/internal/example/shiny/</link>
+      <link>pharmasug2021cpdemo.netlify.app/internal/example/shiny/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/internal/example/shiny/</guid>
+      <guid>pharmasug2021cpdemo.netlify.app/internal/example/shiny/</guid>
       <description>&lt;p&gt;Create and deploy Shiny Apps.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
@@ -139,9 +139,9 @@ The variance of the distribution is $\sigma^{2}$.
     
     <item>
       <title>Advanced Package Development</title>
-      <link>/internal/example/package/</link>
+      <link>pharmasug2021cpdemo.netlify.app/internal/example/package/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/internal/example/package/</guid>
+      <guid>pharmasug2021cpdemo.netlify.app/internal/example/package/</guid>
       <description>&lt;p&gt;Learn how to build R Packages.&lt;/p&gt;
 &lt;p&gt;
   &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
