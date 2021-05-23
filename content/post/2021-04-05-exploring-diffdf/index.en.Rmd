@@ -1,0 +1,22 @@
+---
+title: Exploring diffdf
+author: Ben Straub
+date: '2021-04-05'
+slug: exploring-diffdf
+categories:
+  - Clinical Reporting
+  - Demo
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-04-05T09:07:07-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.  Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.  Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.

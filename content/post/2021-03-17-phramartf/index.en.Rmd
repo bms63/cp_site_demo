@@ -1,0 +1,53 @@
+---
+title: Exploring PhramaRTF
+author: Ben Straub
+date: '2021-03-17'
+slug: phramartf
+categories:
+  - Clinical Reporting
+  - Demo
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-03-17T16:46:43-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.  Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.  Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+
+```{r}
+#install.packages("pharmaRTF")
+#install.packages("dplyr")
+library(pharmaRTF)
+library(dplyr)
+
+```
+
+
+```{r}
+dat <- iris %>% 
+  select(Species, everything())
+
+ht <- huxtable::as_hux(dat, add_colnames=TRUE) %>% 
+  huxtable::set_bold(1, 1:ncol(dat), TRUE) %>% 
+  huxtable::set_bottom_border(1, 1:ncol(dat), 1) %>% 
+  huxtable::set_width(1.5)
+ht[1:10,]
+
+```
+
+
+```{r}
+
+doc <- rtf_doc(ht, titles=list(hf_line("The Iris Dataset", bold=TRUE)))
+
+#write_rtf(doc, file="table1.rtf")
+
+```

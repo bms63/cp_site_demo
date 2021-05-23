@@ -5,12 +5,88 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Exploring diffdf</title>
+      <link>/post/exploring-diffdf/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/post/exploring-diffdf/</guid>
+      <description>
+&lt;script src=&#34;/post/exploring-diffdf/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>PhramaRTF</title>
+      <link>/post/phramartf/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/post/phramartf/</guid>
+      <description>
+&lt;script src=&#34;/post/phramartf/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Welcome 👋 We know that first impressions are important, so we’ve populated your new site with some initial content to help you get familiar with everything in no time. Welcome 👋 We know that first impressions are important, so we’ve populated your new site with some initial content to help you get familiar with everything in no time. Welcome 👋 We know that first impressions are important, so we’ve populated your new site with some initial content to help you get familiar with everything in no time.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#install.packages(&amp;quot;pharmaRTF&amp;quot;)
+#install.packages(&amp;quot;dplyr&amp;quot;)
+library(pharmaRTF)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &amp;#39;pharmaRTF&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following object is masked from &amp;#39;package:graphics&amp;#39;:
+## 
+##     text&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(dplyr)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &amp;#39;dplyr&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &amp;#39;package:stats&amp;#39;:
+## 
+##     filter, lag&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &amp;#39;package:base&amp;#39;:
+## 
+##     intersect, setdiff, setequal, union&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dat &amp;lt;- iris %&amp;gt;% 
+  select(Species, everything())
+
+ht &amp;lt;- huxtable::as_hux(dat, add_colnames=TRUE) %&amp;gt;% 
+  huxtable::set_bold(1, 1:ncol(dat), TRUE) %&amp;gt;% 
+  huxtable::set_bottom_border(1, 1:ncol(dat), 1) %&amp;gt;% 
+  huxtable::set_width(1.5)
+ht[1:10,]&lt;/code&gt;&lt;/pre&gt;
+&lt;table class=&#34;huxtable&#34; style=&#34;border-collapse: collapse; border: 0px; margin-bottom: 2em; margin-top: 2em; width: 150%; margin-left: auto; margin-right: auto;  &#34; id=&#34;tab:unnamed-chunk-2&#34;&gt;
+&lt;col&gt;&lt;col&gt;&lt;col&gt;&lt;col&gt;&lt;col&gt;&lt;tr&gt;
+&lt;th style=&#34;vertical-align: top; text-align: left; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 1pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;&#34;&gt;Species&lt;/th&gt;&lt;th style=&#34;vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 1pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;&#34;&gt;Sepal.Length&lt;/th&gt;&lt;th style=&#34;vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 1pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;&#34;&gt;Sepal.Width&lt;/th&gt;&lt;th style=&#34;vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 1pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;&#34;&gt;Petal.Length&lt;/th&gt;&lt;th style=&#34;vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 1pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;&#34;&gt;Petal.Width&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;vertical-align: top; text-align: left; white-space: normal; border-style: solid solid solid solid; border-width: 1pt 0pt 0pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;setosa&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 1pt 0pt 0pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;5.1&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 1pt 0pt 0pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;3.5&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 1pt 0pt 0pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;1.4&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 1pt 0pt 0pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;0.2&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;setosa&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;4.9&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;3&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;1.4&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;0.2&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;setosa&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;4.7&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;3.2&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;1.3&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;0.2&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;setosa&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;4.6&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;3.1&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;1.5&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;0.2&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;setosa&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;5&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;3.6&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;1.4&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;0.2&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;setosa&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;5.4&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;3.9&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;1.7&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;0.4&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;setosa&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;4.6&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;3.4&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;1.4&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;0.3&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;setosa&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;5&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;3.4&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;1.5&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;0.2&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;setosa&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;4.4&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;2.9&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;1.4&lt;/td&gt;&lt;td style=&#34;vertical-align: top; text-align: right; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;&#34;&gt;0.2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;doc &amp;lt;- rtf_doc(ht, titles=list(hf_line(&amp;quot;The Iris Dataset&amp;quot;, bold=TRUE)))
+
+#write_rtf(doc, file=&amp;quot;table1.rtf&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Hello 2021 Pharmasug</title>
@@ -21,6 +97,10 @@
 &lt;script src=&#34;/post/hello-2021-pharmasug/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
+&lt;p&gt;Welcome 👋 We know that first impressions are important, so we’ve populated your new site with some initial content to help you get familiar with everything in no time. Welcome 👋 We know that first impressions are important, so we’ve populated your new site with some initial content to help you get familiar with everything in no time. Welcome 👋 We know that first impressions are important, so we’ve populated your new site with some initial content to help you get familiar with everything in no time.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;print(&amp;quot;Hello Pharmasug&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;Hello Pharmasug&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is a simple post on using Rmarkdown within this website! So cool!&lt;/p&gt;
 </description>
     </item>
     
@@ -109,7 +189,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-248365719&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-963285741&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -119,7 +199,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-248365719&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-963285741&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
