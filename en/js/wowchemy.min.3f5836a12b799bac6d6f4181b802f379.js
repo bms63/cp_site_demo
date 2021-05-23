@@ -1,5 +1,8 @@
 (() => {
   // <stdin>
+  /*! Wowchemy v5.0.0-beta.3 | https://wowchemy.com/ */
+  /*! Copyright 2016-present George Cushen (https://georgecushen.com/) */
+  /*! License: https://github.com/wowchemy/wowchemy-hugo-modules/blob/main/LICENSE.md */
   (() => {
     var a = Object.assign || function(d2) {
       for (var a2 = 1, b2, c2; a2 < arguments.length; a2++) {
@@ -475,7 +478,7 @@
       clearTimeout(v), v = setTimeout(D, 200);
     });
   })(), (() => {
-    var e = {authors: "Authors", event: "Events", post: "Posts", project: "Projects", publication: "Publications", slides: "Slides"}, f = {no_results: "No results found", placeholder: "Search...", results: "results found"}, c = {indexURI: "/index.json", minLength: 1, threshold: 0.3}, d = {shouldSort: true, includeMatches: true, tokenize: true, threshold: c.threshold, location: 0, distance: 100, maxPatternLength: 32, minMatchCharLength: c.minLength, keys: [{name: "title", weight: 0.99}, {name: "summary", weight: 0.6}, {name: "authors", weight: 0.5}, {name: "content", weight: 0.2}, {name: "tags", weight: 0.5}, {name: "categories", weight: 0.5}]}, a = 60;
+    var e = {authors: "Authors", event: "Events", post: "Posts", project: "Projects", publication: "Publications", slides: "Slides"}, f = {no_results: "No results found", placeholder: "Search...", results: "results found"}, c = {indexURI: "/pharmasug2021cpdemo.netlify.app/index.json", minLength: 1, threshold: 0.3}, d = {shouldSort: true, includeMatches: true, tokenize: true, threshold: c.threshold, location: 0, distance: 100, maxPatternLength: 32, minMatchCharLength: c.minLength, keys: [{name: "title", weight: 0.99}, {name: "summary", weight: 0.6}, {name: "authors", weight: 0.5}, {name: "content", weight: 0.2}, {name: "tags", weight: 0.5}, {name: "categories", weight: 0.5}]}, a = 60;
     function g(a2) {
       return decodeURIComponent((location.search.split(a2 + "=")[1] || "").split("&")[0]).replace(/\+/g, " ");
     }
@@ -527,6 +530,3 @@
     });
   })();
 })();
-/*! Copyright 2016-present George Cushen (https://georgecushen.com/) */
-/*! License: https://github.com/wowchemy/wowchemy-hugo-modules/blob/main/LICENSE.md */
-/*! Wowchemy v5.0.0-beta.3 | https://wowchemy.com/ */
